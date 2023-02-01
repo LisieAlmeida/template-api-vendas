@@ -259,7 +259,7 @@
         <!-- partial:partials/_sidebar.html -->
         <nav class="sidebar sidebar-offcanvas" id="sidebar">
           <ul class="nav">
-            <li class="nav-item nav-category">Main</li>
+           <!--<li class="nav-item nav-category">Main</li>-->
             <li class="nav-item">
               <a class="nav-link" href="index.html">
                 <span class="icon-bg"><i class="mdi mdi-cube menu-icon"></i></span>
@@ -268,24 +268,91 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" data-bs-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-                <span class="icon-bg"><i class="mdi mdi-crosshairs-gps menu-icon"></i></span>
-                <span class="menu-title">UI Elements</span>
+                <span class="icon-bg"><i class="mdi mdi-account-box menu-icon"></i></span>
+                <span class="menu-title">Clientes</span>
                 <i class="menu-arrow"></i>
               </a>
               <div class="collapse" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Dropdowns</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Cadastrar</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Editar</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Listar</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Localizar</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Consultar</a></li>
+                </ul>
+              </div>
+            </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-bs-toggle="collapse" href="#clientes" aria-expanded="false" aria-controls="ui-basic">
+              <span class="icon-bg"><i class="mdi mdi-account-multiple menu-icon"></i></span>
+              <span class="menu-title">Fornecedores</span>
+              <i class="menu-arrow"></i>
+            </a>
+            <div class="collapse" id="clientes">
+              <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="">Cadastrar</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Editar</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Listar</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Localizar</a></li>
+                <li class="nav-item"> <a class="nav-link" href="">Consultar</a></li>
+              </ul>
+            </div>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#produtos" aria-expanded="false" aria-controls="ui-basic">
+                <span class="icon-bg"><i class="mdi mdi-shopping menu-icon"></i></span>
+                <span class="menu-title">Produtos</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="produtos">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="">Cadastrar</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Editar</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Listar</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Localizar</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Consultar</a></li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#vendas" aria-expanded="false" aria-controls="ui-basic">
+                <span class="icon-bg"><i class="mdi mdi-square-inc-cash menu-icon"></i></span>
+                <span class="menu-title">Vendas</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="vendas">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="">Cadastrar</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Editar</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Listar</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Localizar</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Consultar</a></li>
                 </ul>
               </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="pages/icons/mdi.html">
-                <span class="icon-bg"><i class="mdi mdi-contacts menu-icon"></i></span>
-                <span class="menu-title">Icons</span>
+                <span class="icon-bg"><i class="mdi mdi-archive menu-icon"></i></span>
+                <span class="menu-title">Relatórios</span>
               </a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="collapse" href="#configuracoes" aria-expanded="false" aria-controls="ui-basic">
+                <span class="icon-bg"><i class="mdi mdi-settings menu-icon"></i></span>
+                <span class="menu-title">Configurações</span>
+                <i class="menu-arrow"></i>
+              </a>
+              <div class="collapse" id="configuracoes">
+                <ul class="nav flex-column sub-menu">
+                  <li class="nav-item"> <a class="nav-link" href="">Usuários</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Vendedores</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Metas</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="">Tipos de pagamento</a></li>
+                </ul>
+              </div>
+            </li>
+          <!--</li>
             <li class="nav-item">
               <a class="nav-link" href="pages/forms/basic_elements.html">
                 <span class="icon-bg"><i class="mdi mdi-format-list-bulleted menu-icon"></i></span>
@@ -363,7 +430,7 @@
                 <a href="#" class="nav-link"><i class="mdi mdi-logout menu-icon"></i>
                   <span class="menu-title">Log Out</span></a>
               </div>
-            </li>
+            </li>-->
           </ul>
         </nav>
         <!-- partial -->
