@@ -13783,7 +13783,9 @@ dl {
       margin: auto; } }
 
 .auth .brand-logo {
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+  color: #002c7d;
+   }
   .auth .brand-logo img {
     width: 150px; }
 
@@ -14972,7 +14974,7 @@ dl {
       width: 100%; } }
 
 .content-wrapper {
-  background: #f0f1f6;
+  background:#181824;
   padding: 2.875rem 2.875rem 0 2.875rem;
   width: 100%;
   -webkit-box-flex: 1;
