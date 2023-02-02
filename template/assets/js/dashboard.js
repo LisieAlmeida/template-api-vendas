@@ -382,7 +382,7 @@
 			var deviceSalesData = {
 				labels: ["Iphone", "Google", "Sumsung", "Huawei", "Xiaomi", "Oppo", "Vivo", "Lg"],
 				datasets: [{
-						label: 'Demand',
+						label: 'Demanda',
 						data: [450, 500, 300, 350, 200, 320, 310, 700],
 						backgroundColor: [
 							'#a461d8', '#a461d8', '#a461d8', '#a461d8', '#a461d8', '#a461d8', '#a461d8', '#a461d8',
@@ -394,7 +394,7 @@
 						fill: false
 					},
 					{
-						label: 'Supply',
+						label: 'Oferta',
 						data: [250, 100, 310, 75, 290, 100, 500, 260],
 						backgroundColor: [
 							'#fc5a5a', '#fc5a5a', '#fc5a5a', '#fc5a5a', '#fc5a5a', '#fc5a5a', '#fc5a5a', '#fc5a5a',
@@ -925,7 +925,7 @@
 			var pageiVewAnalyticData = {
 				labels: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28"],
 				datasets: [{
-						label: 'This week',
+						label: 'Mês atual',
 						data: [46, 49, 51, 58, 63.61, 65, 64, 69, 70, 78, 80, 80, 90, 85, 87, 92, 97, 102, 107, 109, 111, 111, 120, 130, 132, 136, 140, 145],
 						backgroundColor: [
 							'rgba(216,247,234, 0.19)',
@@ -941,7 +941,7 @@
 						pointRadius: 4,
 					},
 					{
-						label: 'Current week',
+						label: 'Mês anterior',
 						data: [16, 19, 21, 28, 33.31, 35, 34, 39, 40, 48, 50, 50, 51, 55, 57, 62, 67, 69, 68, 70, 72, 75, 74, 80, 79, 80, 84, 90],
 						backgroundColor: [
 							'rgba(216,247,234, 0.19)',
